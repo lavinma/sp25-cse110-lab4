@@ -69,48 +69,48 @@ E. Access index zero in the array of the courseLoad property of the student obje
 ### Arithmetic 
 A. '3' + 2
     
-    output: 32
+output: 32
 
-    why: JS converts the number `2` into a string and concatenates it with `'3'`, resulting in `'32'`.
+why: JS converts the number `2` into a string and concatenates it with `'3'`, resulting in `'32'`.
 
 B. '3' - 2
 
-    output: 1
+output: 1
 
-    why: The subtraction operator forces the function to convert the input to numbers, so `'3'` becomes `3`, and `3 - 2` equals `1`.
+why: The subtraction operator forces the function to convert the input to numbers, so `'3'` becomes `3`, and `3 - 2` equals`1`.
 
 C. 3 + null
 
-    output: 3
+output: 3
 
-    why: `null` is converted to `0`, so the expression becomes `3 + 0` which equals `3`.
+why: `null` is converted to `0`, so the expression becomes `3 + 0` which equals `3`.
 
 D. '3' + null
 
-    output: 3null
+output: 3null
 
-    why: `null` is converted to string `'null'` and it is concatenated to `'3'`, so the output was `'3null'`
+why: `null` is converted to string `'null'` and it is concatenated to `'3'`, so the output was `'3null'`
 
 E. true + 3
 
-    output: 4
+output: 4
 
-    why: The boolean `true` is converted to `1`, and `1 + 3` equals `4`.
+why: The boolean `true` is converted to `1`, and `1 + 3` equals `4`.
 
 F. false + null
 
-    output: 0
+output: 0
 
-    why: Both `false` and `null` are converted to `0`, and `0 + 0` equals `0`.
+why: Both `false` and `null` are converted to `0`, and `0 + 0` equals `0`.
 
 G. '3' + undefined
 
-    output: 3undefined
+output: 3undefined
 
-    why: JS turns `undefined` into the string `'undefined'`. It is then concatenated with `'3'`, resulting in `'3undefined'`.
+why: JS turns `undefined` into the string `'undefined'`. It is then concatenated with `'3'`, resulting in `'3undefined'`.
 
 H. '3' - undefined
 
-    output: Nan
+output: Nan
 
-    why: The subtraction operator tries to convert both `'3'` and `undefined` into numbers, but `undefined` becomes `NaN`, and any arithmetic operation with `NaN` results in `NaN`.
+why: The subtraction operator tries to convert both `'3'` and `undefined` into numbers, but `undefined` becomes `NaN`, and any arithmetic operation with `NaN` results in `NaN`.
