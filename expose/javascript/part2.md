@@ -43,3 +43,22 @@
 11. What will this function return? Give a brief explanation. If the code causes an error, explain why.
     
     The function returns `[50, 100, 150]`. The function correctly calculates the discounted prices for each item (doing a 50% discount) and pushes them into the `discounted` array which is then returned. 
+
+## Data Types
+A. Accessing the value of the name property in the student object
+
+`student.name`
+B. Accessing the value of the Grad Year property in the student object
+
+`student['Grad Year']`
+C. Calling the function for the greeting property in the student object
+
+`student.greeting()`
+D. Accessing the name property of the object in the Favorite Teacher property in student
+
+`student['Favorite Teacher'].name`
+E. Access index zero in the array of the courseLoad property of the student object
+
+`student.courseLoad[0]`
+
+## Basic Operators & Type Conversion 
