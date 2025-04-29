@@ -162,6 +162,7 @@ The `===` operator checks for both value and type to be the same without perform
 17.  The result of calling `modifyArray([1, 2, 3], doSomething)` is `[2, 4, 6]`. The `modifyArray` function takes an array and function`callback`. It loops through each element of the array and calls `callback` on each one. `callback` here is `doSomething`, which doubles the number. So `1` becomes `2`, `2` becomes `4`, and `3` becomes `6`. These values are added to a new array, which gets returned as `[2, 4, 6]`. 
 18.  What is the output of the above code?
     output: 
+    
     1
 
     4
