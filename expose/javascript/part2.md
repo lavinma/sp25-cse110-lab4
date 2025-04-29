@@ -114,3 +114,40 @@ H. '3' - undefined
 output: Nan
 
 why: The subtraction operator tries to convert both `'3'` and `undefined` into numbers, but `undefined` becomes `NaN`, and any arithmetic operation with `NaN` results in `NaN`.
+
+### Comparison
+A. '2' > 1
+
+output: true
+
+why: The string `'2'` is converted to the number `2`, and since `2 > 1`, the result is `true`.
+
+B. '2' < '12'
+
+output: false
+
+why: JS compares string alphabetically, so since `'2'` comes after `'1'`, so `'2' < '12'` is `false`.
+
+C. 2 == '2'
+
+output: true
+
+why: The `==` operator allows type coercion, so the string `'2'` is converted to the number `2`, and `2 == 2` is `true`.
+
+D. 2 === '2'
+
+output: false
+
+why: The `===` operator checks both value and type without type conversion, so since `2` is a number and `'2'` is a string, so they are not equal.
+
+E. true == 2
+
+output: false
+
+why: The boolean `true` is converted to `1`, so `1 == 2` is `false`.
+
+F. true === Boolean(2)
+
+output: true
+
+why: `Boolean(2)` evaluates to `true`, and `true === true` is `true`.
