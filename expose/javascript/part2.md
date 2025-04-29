@@ -151,3 +151,8 @@ F. true === Boolean(2)
 output: true
 
 why: `Boolean(2)` evaluates to `true`, and `true === true` is `true`.
+
+Explain the difference between the == and === operators.
+
+The `==` operator checks for equality after performing type conversion (if needed), meaning the operands can be different types and still be the expression would output equality.  
+The `===` operator checks for both value and type to be the same without performing any type conversion.
